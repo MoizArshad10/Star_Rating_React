@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.container{
+  display: flex;
+  gap: 10px;
+  color: white;
+  margin-top: 200px;
+}
+body{
+  background-color: black;
+}
+span{
+  font-size: 35px;
+  cursor: pointer;
+  outline:2px crimson;
+}
+
+.colored {
+  color: orange;
+}
+.unColor {
+  color: black;
+}
